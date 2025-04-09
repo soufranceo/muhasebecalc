@@ -1,0 +1,51 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.25);
+  }
+}
+
+@keyframes neonPulse {
+  0%, 100% {
+    background: linear-gradient(135deg, #f0f7ff 0%, #e6f0ff 100%);
+  }
+  50% {
+    background: linear-gradient(135deg, #e6f0ff 0%, #d9e8ff 100%);
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.2);
+  }
+}
